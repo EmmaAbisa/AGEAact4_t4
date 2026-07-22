@@ -1,7 +1,7 @@
 # Actividad 4: API REST Pura con Spring Security & JWT — Desplegada en VPS 
 
 
-![alt text](image.png)
+![alt text](img/image.png)
 
 ---
 
@@ -33,9 +33,9 @@ Spring Boot Application (Spring Security + JWT)
 Base de Datos (conexión interna del VPS)
 ```
 
-![alt text](image-1.png)
+![alt text](img/image-1.png)
 
-![alt text](image-2.png)
+![alt text](img/image-2.png)
 
 ---
 
@@ -71,7 +71,7 @@ Todas las pruebas se realizaron desde **Bruno**, apuntando directamente a la IP 
 }
 ```
 
-![alt text](image-3.png)
+![alt text](img/image-3.png)
 
 ---
 
@@ -87,7 +87,7 @@ Todas las pruebas se realizaron desde **Bruno**, apuntando directamente a la IP 
 }
 ```
 
-![alt text](image-4.png)
+![alt text]img/image-4.png)
 
 ---
 
@@ -97,7 +97,7 @@ Todas las pruebas se realizaron desde **Bruno**, apuntando directamente a la IP 
 * **Header:** `Authorization: Bearer <TOKEN_DEL_PASO_2>`
 * **Descripción:** Petición protegida. El filtro de seguridad valida el token antes de dejar pasar la petición al controller. Regresa la lista de videojuegos existentes.
 
-![alt text](image-5.png)
+![alt text](img/image-5.png)
 
 ---
 
@@ -115,7 +115,7 @@ Todas las pruebas se realizaron desde **Bruno**, apuntando directamente a la IP 
 }
 ```
 
-![alt text](image-6.png)
+![alt text](img/image-6.png)
 
 ---
 
@@ -133,7 +133,7 @@ Todas las pruebas se realizaron desde **Bruno**, apuntando directamente a la IP 
 }
 ```
 
-![alt text](image-7.png)
+![alt text](img/image-7.png)
 
 ---
 
@@ -143,7 +143,7 @@ Todas las pruebas se realizaron desde **Bruno**, apuntando directamente a la IP 
 * **Header:** `Authorization: Bearer <TOKEN_DEL_PASO_2>`
 * **Descripción:** Elimina el registro indicado. Regresa 204 No Content al completarse.
 
-![alt text](image-8.png)
+![alt text](img/image-8.png)
 
 ---
 
@@ -153,7 +153,7 @@ Todas las pruebas se realizaron desde **Bruno**, apuntando directamente a la IP 
 * **Header:** Ninguno (sin `Authorization`)
 * **Descripción:** Petición sin token, simulando un intento de acceso no autorizado. El filtro `SecurityFilterChain` de Spring Security intercepta la petición antes de que llegue al controller y la rechaza con un código 401/403.
 
-![alt text](image-9.png)
+![alt text](img/image-9.png)
 
 ---
 
@@ -161,9 +161,9 @@ Todas las pruebas se realizaron desde **Bruno**, apuntando directamente a la IP 
 
 Para confirmar que los datos realmente se están persistiendo (y no solo respondiendo en memoria), se ingresó directamente al gestor de base de datos del VPS vía SSH.
 
-![alt text](image-10.png)
+![alt text](img/image-10.png)
 
-![alt text](image-11.png)
+![alt text](img/image-11.png)
 
 ---
 
