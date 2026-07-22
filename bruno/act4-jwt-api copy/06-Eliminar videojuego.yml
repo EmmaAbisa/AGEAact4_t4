@@ -1,0 +1,18 @@
+info:
+  name: 06-Eliminar videojuego
+  type: http
+  seq: 10
+
+http:
+  method: DELETE
+  url: http://18.188.66.230:8088/api/v1/videojuegos/1
+  headers:
+    - name: Authorization
+      value: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJicnVub19udWV2b190ZXN0IiwiaWF0IjoxNzg0NjU2OTcxLCJleHAiOjE3ODQ2NjA1NzF9._ascONrwcWLiqyJIlmenuzsxxZqzl2VSvsJFGRW5muk
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

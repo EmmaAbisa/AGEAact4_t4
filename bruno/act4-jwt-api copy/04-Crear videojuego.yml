@@ -1,0 +1,27 @@
+info:
+  name: 04-Crear videojuego
+  type: http
+  seq: 6
+
+http:
+  method: POST
+  url: http://18.188.66.230:8088/api/v1/videojuegos
+  headers:
+    - name: Authorization
+      value: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJicnVub19udWV2b190ZXN0IiwiaWF0IjoxNzg0NjU3Nzg5LCJleHAiOjE3ODQ2NjEzODl9.EPR40YOrs8EIUy9ZdepKM9ru95i_9b6FlF8rdmqzyMs
+  body:
+    type: json
+    data: |-
+      {
+        "titulo": "Elden Ring",
+        "genero": "RPG",
+        "anioLanzamiento": 2022,
+        "desarrolladorId": 1
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
