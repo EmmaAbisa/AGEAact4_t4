@@ -87,7 +87,7 @@ Todas las pruebas se realizaron desde **Bruno**, apuntando directamente a la IP 
 }
 ```
 
-![alt text]img/image-4.png)
+![alt text](img/image-4.png)
 
 ---
 
