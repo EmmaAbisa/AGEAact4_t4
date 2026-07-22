@@ -1,7 +1,7 @@
 # Actividad 4: API REST Pura con Spring Security & JWT — Desplegada en VPS 
 
 
-![alt text](img/image.png)
+![alt text](img/image-21.png)
 
 ---
 
