@@ -39,7 +39,7 @@ Base de Datos (conexión interna del VPS)
 
 ---
 
-## 🗺️ 3. Endpoints Disponibles
+##  3. Endpoints Disponibles
 
 Todos los endpoints devuelven y reciben datos exclusivamente en formato **JSON**.
 
